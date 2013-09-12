@@ -1,0 +1,9 @@
+.vagrant
+resources
+*.box
+*.vmdk
+*.ovf
+
+boxes/transient
+box_modules
+modules

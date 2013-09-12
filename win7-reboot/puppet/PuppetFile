@@ -1,0 +1,7 @@
+# Configuration for librarian-puppet
+
+forge "http://forge.puppetlabs.com"
+
+#mod 'puppetlabs/reboot',
+#  :git => 'git://github.com/joshcooper/puppetlabs-reboot.git',
+#  :ref => 'ticket/master/19162-reboot'
