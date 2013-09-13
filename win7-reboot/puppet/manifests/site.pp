@@ -10,6 +10,13 @@ file { 'c:/file_notifying_reboot.txt':
   #notify => Reboot['reboot_pending'],
 }
 
+reboot {'reboot_finished2':
+  message => "Rebooting at end of run #2",
+  when => finished,
+  timeout => 20,
+}
+
+
 reboot { 'reboot_now':
   message => "Rebooting yo",
   timeout => 20,
